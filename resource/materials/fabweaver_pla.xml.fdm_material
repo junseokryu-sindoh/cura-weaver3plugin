@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial version="1.3" xmlns="http://www.ultimaker.com/material">
+    <metadata>
+        <name>
+          <brand>fabWeaver</brand>
+          <material>PLA</material>
+          <color>Generic</color>
+          <label>fabWeaver PLA</label>
+        </name>
+        <GUID>PLA</GUID>
+        <version>0</version>
+        <color_code>#8cb219</color_code>
+    </metadata>
+    <properties>
+        <density>1.24</density>
+        <diameter>1.75</diameter>
+    </properties>
+    <settings>
+        <setting key="retraction amount">1.0</setting>
+        <setting key="retraction speed">10.0</setting>
+        <setting key="print temperature">205</setting>
+        <setting key="heated bed temperature">60.0</setting>
+        <setting key="standby temperature">80.0</setting>
+        <setting key="print cooling">100</setting>
+        <setting key="build volume temperature">0</setting>
+    </settings>
+</fdmmaterial>

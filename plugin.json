@@ -1,0 +1,9 @@
+{
+    "name": "fabWeaver Connection",
+    "author": "fabWeaver",
+    "version": "0.1.0",
+    "description": "Network printing and monitoring for fabWeaver",
+    "api": 7,
+    "supported_sdk_versions": ["7.8.0", "7.9.0", "8.0.0"],
+    "i18n-catalog": "fabWeaver"
+}
