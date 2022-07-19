@@ -69,7 +69,7 @@ class Installer():
                 "src": os.path.join(plugin_path, "resource", "quality", "fabweaver"),
                 "dst": os.path.join(resources_path, "quality", "fabweaver")
             },
-            "fabweaver_normal_pla.inst.cfg": {
+            "fabweaver_normal_PLA.inst.cfg": {
                 "src": os.path.join(plugin_path, "resource", "quality", "fabweaver"),
                 "dst": os.path.join(resources_path, "quality", "fabweaver")
             },

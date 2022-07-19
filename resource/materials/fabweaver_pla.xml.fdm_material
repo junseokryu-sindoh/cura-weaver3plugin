@@ -19,7 +19,7 @@
         <setting key="retraction amount">1.0</setting>
         <setting key="retraction speed">10.0</setting>
         <setting key="print temperature">205</setting>
-        <setting key="heated bed temperature">60.0</setting>
+        <setting key="heated bed temperature">50.0</setting>
         <setting key="standby temperature">80.0</setting>
         <setting key="print cooling">100</setting>
         <setting key="build volume temperature">0</setting>

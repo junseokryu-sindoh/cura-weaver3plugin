@@ -30,7 +30,7 @@
         "machine_depth": { "default_value": 316 },
         "machine_height": { "default_value": 312 },
         "machine_gcode_flavor": { "default_value": "Michelan" },
-
+        "inset_direction":{ "default_value": "inside_out" },
         "machine_heated_bed": { "default_value": true },
 
         "machine_extruder_count": { "default_value": 2 },
@@ -440,10 +440,6 @@
         },
 
         "top_layers": {
-            "default_value": 3,
-            "value": "top_bottom_thickness // layer_height"
-        },
-        "bottom_layers": {
             "default_value": 3,
             "value": "top_bottom_thickness // layer_height"
         },
