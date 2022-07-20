@@ -320,19 +320,19 @@ Item
             label: 
             {
                 if (OutputDevice.isOpenSpool == true)
-                    catalog.i18nc("@label", "Open Matrial mode")
+                    catalog.i18nc("@label", "Open Material mode")
                 else
-                    catalog.i18nc("@label", "Spool Infomation")
+                    catalog.i18nc("@label", "Spool Information")
             }
             width: base.width
-            visible: true
-            // {
-            //     if ((OutputDevice.isOpenSpool == true) || (activePrinter == null)){
-            //         return false
-            //     } else{
-            //         return true
-            //     }
-            // }
+            visible: 
+            {
+                if (activePrinter == null){
+                    return false
+                } else{
+                    return true
+                }
+            }
             height:
             {
                 if (visible){

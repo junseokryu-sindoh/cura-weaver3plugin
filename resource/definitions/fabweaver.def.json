@@ -438,11 +438,6 @@
             "default_value": true,
             "value": "machine_gcode_flavor == \"Michelan\""
         },
-
-        "top_layers": {
-            "default_value": 3,
-            "value": "top_bottom_thickness // layer_height"
-        },
         "support_brim_line_count": {
             "default_value": 15,
             "value": "support_brim_width // line_width"
